@@ -1,0 +1,116 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.container-fluid{
+    padding: 10px 50px 0;
+}
+
+/* XivTech title */
+
+.title-button{
+    border-radius: 3px;
+}
+
+.first-img{
+    width: 60px;
+    height: 60px;
+}
+.second-img{
+    width: 120px;
+    height: 70px;
+}
+
+/* Navigation-bar */
+
+.navbar-shadow{
+    position: fixed;
+    top: 0;
+    width:100%;
+    z-index:100;
+    box-shadow: 0 0 4px grey;
+    background-color: white;
+}
+
+.nav-item{
+    margin-right: 20px;
+    font-size: 1.1rem;
+}
+
+/* Let's Collaborate list */
+
+.list-title{
+    text-align: left;
+    font-weight: bolder;
+    margin: 180px 0 100px 0;
+}
+
+.components{
+    font-family: ui-monospace;
+    font-size: 4rem;
+    margin: 20px 100px 20px 0;
+}
+
+#component-list{
+    margin: 0 12%;
+    text-align: left;
+}
+
+.list-img{
+    width: 380px;
+    height: 380px;
+    margin: 10px 50px 10px;
+}
+
+.list-para{
+    font-size: 1.7rem;
+    padding-right: 150px;
+    margin: 0px 0;
+    font-family: ui-monospace;
+}
+
+.component-website a{
+    font-family: ui-monospace;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.component-website a:hover{
+    color: grey;
+}
+
+.component-website p{
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.list-button{
+    margin: 50px 0;
+    border-radius: 3px;
+    padding: 15px 30px;
+    font-size: 1rem;
+}
+
+.list-button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* loading effect */
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
